@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+#corFundo {
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    position: absolute;
+    z-index: -1;
+}
+
+
 .gameBoard {
     width: 50%;
     height: 530px;
@@ -11,7 +20,7 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 
 .fundo {
